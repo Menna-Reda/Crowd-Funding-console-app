@@ -1,0 +1,62 @@
+{
+    "users": [
+        {
+            "id": 0,
+            "fname": "Menna",
+            "lname": "Reda",
+            "email": "menna@gmail.com",
+            "password": "Pass@123",
+            "phone": "01111222555"
+        },
+        {
+            "id": 1,
+            "fname": "Menna",
+            "lname": "Reda",
+            "email": "menna1@gmail.com",
+            "password": "Pass@123",
+            "phone": "01111222456"
+        },
+        {
+            "id": 2,
+            "fname": "Menna",
+            "lname": "Reda",
+            "email": "menna2@gmail.com",
+            "password": "Pass@123",
+            "phone": "01111111223"
+        },
+        {
+            "id": 3,
+            "fname": "Menna",
+            "lname": "Reda",
+            "email": "menna3@gmail.com",
+            "password": "Pass@123",
+            "phone": "01111122222"
+        }
+    ],
+    "projects": [
+        {
+            "user_id": 1,
+            "title": "Market",
+            "details": "flkmjfoivjufihvyf",
+            "total_target": 60000.0,
+            "start_date": "2025-02-24",
+            "end_date": "2025-03-31"
+        },
+        {
+            "user_id": 0,
+            "title": "Market",
+            "details": "mndbh jfhf jjfjf",
+            "total_target": 20000.0,
+            "start_date": "2025-02-24",
+            "end_date": "2025-09-30"
+        },
+        {
+            "user_id": 2,
+            "title": "Store",
+            "details": "Fashion store for kids",
+            "total_target": 50000.0,
+            "start_date": "2025-02-24",
+            "end_date": "2025-09-30"
+        }
+    ]
+}
