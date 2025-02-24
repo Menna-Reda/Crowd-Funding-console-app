@@ -126,7 +126,7 @@ def create_project(user):
     
     while True:
         start_date = datetime.datetime.now().date()
-        end_date = input(f"Your project campaign starts on {start_date}.\nEnter end date (YYYY-MM-DD) or '0' to return:\n\t")
+        end_date = input(f"Your project campaign starts on {start_date}.\nEnter end date (YYYY-MM-DD):\n\t")
         if end_date == "0":
             return
         try:
@@ -159,7 +159,7 @@ def edit_project(user):
         for index, project in enumerate(user_projects, start=1):
             print(f"{index}. {project['title']}")
         
-        project_to_edit = input("Enter your project number to edit or '0' to return:\n\t")
+        project_to_edit = input("Enter your project number to edit:\n\t")
         if project_to_edit == "0":
             return
         try:
@@ -255,7 +255,7 @@ def delete_project(user):
         for index, project in enumerate(user_projects, start=1):
             print(f"{index}. {project['title']}")
         
-        project_to_delete = input("Enter your project number to delete or '0' to return:\n\t")
+        project_to_delete = input("Enter your project number to delete:\n\t")
         if project_to_delete == "0":
             return
         try:
