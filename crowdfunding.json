@@ -31,6 +31,14 @@
             "email": "menna3@gmail.com",
             "password": "Pass@123",
             "phone": "01111122222"
+        },
+        {
+            "id": 4,
+            "fname": "Menna",
+            "lname": "Reda",
+            "email": "menna5@gmail.com",
+            "password": "Pass@123",
+            "phone": "01111111222"
         }
     ],
     "projects": [
